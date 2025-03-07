@@ -59,6 +59,7 @@ def menu():
             mostrar_tareas()
         elif opcion == "4":
             print("Saliendo del programa...")
+            print("Hasta pronto!")
             break
         else:
             print("Opción no válida, intente de nuevo.")
