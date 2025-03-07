@@ -8,8 +8,8 @@ cola_prioridad = []
 # Se usa un arreglo, ya que se tiene definido el tamaño del arreglo
 prioridad_valores = {"Alta": 1, "Media": 2, "Baja": 3}
 
-def agregar_tarea():
-    """Agrega una nueva tarea con prioridad."""
+def agregar_tarea(): # Inicializamos una lista vacía que actuará como nuestra cola de prioridad. Usaremos la función heapq.heappush para insertar tareas en esta lista y ordenarlas automáticamente por su prioridad.
+    """AGREGAR UNA NUEVA TAREA A LA COLA DE PRIORIDAD."""
     tarea = input("Ingrese la tarea: ")
     prioridad_texto = input("Ingrese la prioridad (Alta, Media, Baja): ").capitalize()
     
