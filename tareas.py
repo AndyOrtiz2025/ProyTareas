@@ -5,6 +5,7 @@ import heapq
 cola_prioridad = []
 
 # Diccionario para convertir texto a prioridad numérica
+# Se usa un arreglo, ya que se tiene definido el tamaño del arreglo
 prioridad_valores = {"Alta": 1, "Media": 2, "Baja": 3}
 
 def agregar_tarea():
